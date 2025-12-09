@@ -17,6 +17,7 @@ import tesla from "./company/tesla.webp";
 import dalle from "./T-shirt.jpg";
 import generator from "./dall-e.jpg";
 import codex from "./codex.png";
+import fav from "./fav.png"
 
 export {
   logo,
@@ -35,5 +36,6 @@ export {
   tesla,
   dalle,
   codex,
-  react
+  react,
+  fav
 };
