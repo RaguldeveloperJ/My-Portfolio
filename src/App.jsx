@@ -3,11 +3,9 @@ import React, { Suspense } from 'react';
 
 const About = React.lazy(() => import('./components/About'));
 const Contact = React.lazy(() => import('./components/Contact'));
-const Experience = React.lazy(() => import('./components/Experience'));
-const Feedbacks = React.lazy(() => import('./components/Feedbacks'));
+const Project = React.lazy(() => import('./components/project.jsx'));
 const Hero = React.lazy(() => import('./components/Hero'));
 const Navbar = React.lazy(() => import('./components/Navbar'));
-const Works = React.lazy(() => import('./components/Works'));
 const Footer = React.lazy(() => import('./components/Footer'));
 const StarsCanvas = React.lazy(() => import('./components/canvas/Stars.jsx'));
 
@@ -26,14 +24,8 @@ const App = () => {
         <Suspense fallback={<div className='flex justify-center items-center h-screen text-lg text-gray-600'>Loading About...</div>}>
           <About />
         </Suspense>
-        <Suspense fallback={<div className='flex justify-center items-center h-screen text-lg text-gray-600'>Loading Experience...</div>}>
-          <Experience />
-        </Suspense>
-        <Suspense fallback={<div className='flex justify-center items-center h-screen text-lg text-gray-600'>Loading Works...</div>}>
-          <Works />
-        </Suspense>
-        <Suspense fallback={<div className='flex justify-center items-center h-screen text-lg text-gray-600'>Loading Feedbacks...</div>}>
-          <Feedbacks />
+        <Suspense fallback={<div className='flex justify-center items-center h-screen text-lg text-gray-600'>Loading Project...</div>}>
+          <Project />
         </Suspense>
         <div className='relative z-0'>
           <Suspense fallback={<div className='flex justify-center items-center h-screen text-lg text-gray-600'>Loading Contact...</div>}>

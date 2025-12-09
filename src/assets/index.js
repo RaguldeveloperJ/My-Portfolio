@@ -6,8 +6,8 @@ import web from "./web.webp";
 import github from "./github.webp";
 import menu from "./menu.svg";
 import close from "./close.svg";
-
-import nodejs from "./tech/nodejs.webp";
+import react from "./tech/reactjs.webp"
+import django from "./tech/django.jpeg";
 
 import meta from "./company/meta.webp";
 import shopify from "./company/shopify.webp";
@@ -28,11 +28,12 @@ export {
   github,
   menu,
   close,
-  nodejs,
+  django,
   meta,
   shopify,
   starbucks,
   tesla,
   dalle,
-  codex
+  codex,
+  react
 };
