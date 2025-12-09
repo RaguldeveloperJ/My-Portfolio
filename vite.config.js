@@ -8,14 +8,4 @@ export default defineConfig({
       external: ['emailjs-com']
     },
     base:"/My-Portfolio/",
-     build: {
-    rollupOptions: {
-      output: {
-        manualChunks: {
-          react: ['react', 'react-dom'],
-          vendor: ['framer-motion', 'three'],
-        },
-      },
-    },
-  },
 })
