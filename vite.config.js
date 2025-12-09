@@ -7,5 +7,5 @@ export default defineConfig({
   rollupOptions: {
       external: ['emailjs-com']
     },
-    base:"/My-Portfolio/",
+    base:"/my-portfolio/",
 })
