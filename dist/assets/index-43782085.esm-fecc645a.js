@@ -1,4 +1,4 @@
-import{r as We,b as x_,j as gi}from"./index-dacca97c.js";/**
+import{r as We,b as x_,j as gi}from"./index-58a80abe.js";/**
  * @license
  * Copyright 2010-2023 Three.js Authors
  * SPDX-License-Identifier: MIT
