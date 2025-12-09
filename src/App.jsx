@@ -1,4 +1,4 @@
-import { BrowserRouter } from "react-router-dom";
+import { HashRouter } from "react-router-dom";
 import React, { Suspense } from 'react';
 
 const About = React.lazy(() => import('./components/About'));
@@ -11,7 +11,7 @@ const StarsCanvas = React.lazy(() => import('./components/canvas/Stars.jsx'));
 
 const App = () => {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <div className='relative z-0 bg-primary'>
         <div className='bg-hero-pattern bg-cover bg-no-repeat bg-center'>
           <Suspense fallback={<div className='flex justify-center items-center h-screen text-lg text-gray-600'>Loading Navbar...</div>}>
@@ -39,7 +39,7 @@ const App = () => {
           <Footer />
         </Suspense>
       </div>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
