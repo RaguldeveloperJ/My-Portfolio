@@ -6,5 +6,6 @@ export default defineConfig({
   plugins: [react()],
   rollupOptions: {
       external: ['emailjs-com']
-    }
+    },
+    base:"/My-Portfolio/"
 })
