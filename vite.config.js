@@ -8,4 +8,7 @@ export default defineConfig({
       external: ['emailjs-com']
     },
     base:"/my-portfolio/",
+     build: {
+    chunkSizeWarningLimit: 2000, 
+  },
 })
