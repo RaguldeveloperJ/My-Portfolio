@@ -1,10 +1,17 @@
+
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
-// https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  rollupOptions: {
-      external: ['emailjs-com']
+  build: {
+    rollupOptions: {
+      output: {
+        manualChunks: {
+          'react-vendors': ['react', 'react-dom'],
+          'emailjs': ['emailjs-com'],
+        }
+      }
     }
+  }
 })
