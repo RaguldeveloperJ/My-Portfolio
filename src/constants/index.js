@@ -2,10 +2,6 @@ import {
 	backend,
 	creator,
 	web,
-	meta,
-	starbucks,
-	tesla,
-	shopify,
 	django,
 	react
   } from "../assets";

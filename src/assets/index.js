@@ -8,11 +8,7 @@ import menu from "./menu.svg";
 import close from "./close.svg";
 import react from "./tech/reactjs.webp"
 import django from "./tech/django.jpeg";
-
-import meta from "./company/meta.webp";
-import shopify from "./company/shopify.webp";
-import starbucks from "./company/starbucks.webp";
-import tesla from "./company/tesla.webp";
+import fav from "./fav.png";
 
 import dalle from "./T-shirt.jpg";
 import generator from "./dall-e.jpg";
@@ -29,11 +25,8 @@ export {
   menu,
   close,
   django,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
   dalle,
   codex,
-  react
+  react,
+  fav
 };
